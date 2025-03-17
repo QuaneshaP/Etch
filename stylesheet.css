@@ -1,14 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
 .container{
-    width: 80px;
-    height: 750px;
+    flex: auto;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+    width: 960px;
+    
 }
 .grid-square{
     border-style: solid;
     width: 40px;
     height: 40px;
+}
+.grid-square2{
+    border-style: solid;
+    width: 40px;
+    height: 40px;
+}
+.button{
+    height: 100px;
+    width: 200px;
+    color:blue;
+    font-size: 30px;
+    align-self: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
